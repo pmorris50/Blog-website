@@ -1,20 +1,18 @@
-
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Welcome!</a>
+      <h1 class="navbar-brand">Welcome, {{first_name}}</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal1">Log in</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal1">My Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal2">New User</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal2">My Comments</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal3">Recent Blogs</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal3">Write New Blog</a>
           </li>
         </ul>
       </div>
@@ -30,7 +28,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form class = "form login-form">
+            <form>
   <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
@@ -105,4 +103,3 @@
    
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="./js/login.js"></script>
