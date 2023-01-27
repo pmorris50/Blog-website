@@ -23,7 +23,7 @@ const userData = [
 ]
 
 const seedUser = () => User.bulkCreate(userData,{
-    individualHookds: true,
+    individualHooks: true,
     returning: true
 
 })
